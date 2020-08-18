@@ -1,9 +1,205 @@
-<html>
-<head>
-  <title>Hello world</title>
-  <link href="main.css" rel="stylesheet"/>
-</head>
-<body>
-  <h1>Hello world!</h1>
-</body>
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Iván Arcos</title>
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Titillium+Web:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+    <!-- <link rel="stylesheet" href="css/media.css" media="screen and (max-width:768px)"/> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <i class="icon-menu burger-button" id="burger-menu"></i>
+  <header class="header">
+      <div class="container">
+        <figure class="logo">
+          <a href="#"><img src="images/ikigailogo.png" height="50" alt="Logo de Ikigai Studios" /></a>
+        </figure>
+        <nav class="menu">
+          <ol>
+            <li>
+              <a class="link" href="#portafolio">Portafolio</a>
+            </li>
+            <li>
+              <a class="link" href="#eventos">Certificaciones</a>
+            </li>
+            <li>
+              <a class="link" href="#contacto">Trabajemos juntos</a>
+            </li>
+          </ol>
+        </nav>
+      </div>
+  </header>
+    <section class="hero">
+      <div class="container">
+        <h1>
+          Hi, I'm Iván Arcos<br/>specializaing in <strong>IT Governance </strong>and</br><strong>Quality Management</strong> 
+        </h1>
+        <img class="hero-image" src="images/iagbayer.jpg" width="500" height="300" alt="imagen principal del sitio"> 
+      </div>
+    </section>
+    <section id="portafolio" class="portfolio">
+      <div class="container">
+        <h2>Experiencia</h2>
+      <article class="project">
+        <div class="project-details">
+          <h3 class="project-title">IT Governance</h3>
+          <h6 class="project-course">by ISACA</h6>
+          <p class="project-date"><small><strong>Fecha:</strong> 01/07/2018</small></p>
+          <p class="project-url"><small><strong>Más información</strong> www.isaca.org</small></p>
+          <p class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae dolor voluptatum corporis doloribus? Debitis praesentium vitae nulla, quo recusandae, temporibus dolores aut minus eius nihil dolore aspernatur blanditiis nam quod.</p>
+        </div>
+        <figure class="project-imageContainer">
+          <img class="project-image" width="500" src="images/itgovernance.jpg" alt="IT Governance">
+        </figure>
+      </article>
+      <article class="project">
+          <div class="project-details">
+            <h3 class="project-title">ITIL 4 IT Service Management</h3>
+            <h6 class="project-course">by Axelos</h6>
+            <p class="project-date"><small><strong>Fecha:</strong> 01/07/2018</small></p>
+            <p class="project-url"><small><strong>Más información</strong> www.axelos.org</small></p>
+            <p class="project-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste repellendus ratione provident corporis eius officiis veritatis suscipit optio sed aspernatur. Harum accusamus quo illum porro repudiandae excepturi aperiam voluptatibus nobis.</p>
+          </div>
+          <figure class="project-imageContainer">
+            <img class="project-image" width="500" src="images/itil4.jpg" alt="ITIL 4">
+          </figure> 
+        </article>
+      <article class="project">
+          <div class="project-details">
+            <h3 class="project-title">IT Governance</h3>
+            <!-- <h6 class="project-course">by Axelos</h6> -->
+            <!-- <p class="project-date"><small><strong>Fecha:</strong> 01/07/2018</small></p> -->
+            <!-- <p class="project-url"><small><strong>Más información</strong> www.axelos.org</small></p> -->
+            <!-- <p class="project-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste repellendus ratione provident corporis eius officiis veritatis suscipit optio sed aspernatur. Harum accusamus quo illum porro repudiandae excepturi aperiam voluptatibus nobis.</p> -->
+          </div>
+          <video class="html-video" src="images/techie.mp4" width="1280" height="720" controls poster="images/futureofitgov.png"></video>
+        </article>
+        <article class="project">
+          <div class="project-details">
+            <h3 class="project-title">Presentation of COBIT 2019</h3>
+            <!-- <h6 class="project-course">by Axelos</h6> -->
+            <!-- <p class="project-date"><small><strong>Fecha:</strong> 01/07/2018</small></p> -->
+            <!-- <p class="project-url"><small><strong>Más información</strong> www.axelos.org</small></p> -->
+            <!-- <p class="project-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste repellendus ratione provident corporis eius officiis veritatis suscipit optio sed aspernatur. Harum accusamus quo illum porro repudiandae excepturi aperiam voluptatibus nobis.</p> -->
+          </div>
+          <div class="flexible-video">
+            <iframe class="youtube-video" width="560" height="315" src="https://www.youtube.com/embed/KJLAJSZbfIM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </article>
+      </div> 
+    </section>
+    <div class="container">
+      <h2 class="event-list-title">Certificaciones</h2>
+    </div>
+    <section id="eventos" class="event-list">
+      <div class="container">
+        <article class="event">
+          <figure class="event-imageContainer">
+            <img class="event-image" src="images/iagbayer.jpg" width="500" />
+          </figure>
+          <div class="event-detail">
+            <h3 class="event-title">COBIT 2019</h3>
+            <p class="event-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores pariatur rerum eum aliquam dolorem ratione a sequi illo quos amet? A soluta cupiditate autem eum harum inventore fuga quis possimus.</p>
+            <a class="event-url" href="https://www.youtube.com/watch?v=BIS7cWGgJg0" target="_blank">Ver Certificado</a>
+          </div>
+        </article>
+        <article class="event">
+          <figure class="event-imageContainer">
+            <img class="event-image" src="images/iagbayer.jpg" width="500" />
+          </figure>
+          <div class="event-detail">
+            <h3 class="event-title">ITIL 4 IT Service Management</h3>
+            <p class="event-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi non quasi explicabo alias quam. Placeat non ratione voluptatem asperiores sit, provident error maxime minima dolorum tempore harum autem cupiditate reiciendis!</p>
+            <a class="event-url" href="https://www.youtube.com/watch?v=BIS7cWGgJg0" target="_blank">Ver Certificado</a>
+          </div>
+        </article>
+        <article class="event">
+          <figure class="event-imageContainer">
+            <img class="event-image" src="images/iagbayer.jpg" width="500" />
+          </figure>
+          <div class="event-detail">
+            <h3 class="event-title">Ethical Hacking</h3>
+            <p class="event-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error maiores libero, temporibus dolor, vero incidunt dicta harum nobis aliquid sapiente deserunt non distinctio eligendi cum molestiae dignissimos quia odit. Praesentium.</p>
+            <a class="event-url" href="https://www.youtube.com/watch?v=BIS7cWGgJg0" target="_blank">Ver Certificado</a>
+          </div>
+        </article>
+        <article class="event">
+          <figure class="event-imageContainer">
+            <img class="event-image" src="images/iagbayer.jpg" width="500" />
+          </figure>
+          <div class="event-detail">
+            <h3 class="event-title">IT4IT</h3>
+            <p class="event-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil, eveniet officia, ducimus quam voluptas, magni consectetur sint minima fugiat officiis tempore dolore porro quia necessitatibus tenetur similique voluptatibus dolores quo!</p>
+            <a class="event-url" href="https://www.youtube.com/watch?v=BIS7cWGgJg0" target="_blank">Ver Certificado</a>
+          </div>
+        </article>
+      </div>
+    </section>
+    <section id="contacto" class="contact">
+      <div class="container">
+        <form action="/suscripcion/" class="form-email">
+          <h3>¿Creamos algo juntos?</h3>
+          <input type="text" placeholder="Déjame tu email" id="email">
+          <button>Enviar</button>
+        </form>
+        <div class="social">
+          <a href="https://twitter.com/ivanovic" class="social-link twitter" target="_blank">
+            <i class="social-ico icon-twitter"></i>
+          </a>
+          <a href="https://www.facebook.com/arcosivan" class="social-link facebook" target="_blank">
+            <i class="social-ico icon-facebook"></i>
+          </a>
+          <a href="https://www.instagram.com/arcosivann" class="social-link instagram" target="_blank">
+            <i class="social-ico icon-instagram"></i>
+          </a>
+          <a href="https://github.com/ivannovic" class="social-link github" target="_blank">
+            <i class="social-ico icon-github"></i>
+          </a>
+          <a href="https://www.instagram.com/arcosivann" class="social-link instagram" target="_blank">
+            <i class="social-ico icon-codepen"></i>
+          </a>
+      </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div>
+          <p>Ikigai Studios <img src="images/ikigailogo.png" width="80" alt="Ikigai"></p>
+        </div>
+        <div>
+          <p>
+            Designed by <a href="https://twitter.com/ivanovic">@ivanovic</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script>
+      const ipad = window.matchMedia('screen and (max-width: 767px)');
+      const menu = document.querySelector('.menu');
+      // console.log(menu);
+      const burgerButton = document.querySelector('#burger-menu');
+      // console.log(burgerButton);
+
+      ipad.addListener(validation)
+
+      function validation(event) {
+        if (event.matches){
+          burgerButton.addEventListener('click', hideShow)
+        }else{
+          burgerButton.removeEventListener('click', hideShow)
+        }
+      }
+      validation(ipad);
+
+      function hideShow(){
+        if (menu.classList.contains('is-active')){
+          menu.classList.remove('is-active');  
+        } else {
+        menu.classList.add('is-active');
+        }
+      }
+    </script>
+  </body>
 </html>

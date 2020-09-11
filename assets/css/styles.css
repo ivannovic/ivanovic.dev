@@ -235,7 +235,7 @@ img{
   font-family: 'Titillium Web', sans-serif;
   display: inline-block;
   background-color: goldenrod;
-  color: var(--second-color);
+  color: var(--third-color);
   padding: .75rem 2.5rem;
   font-weight: var(--font-semi);
   border-radius: .5rem;

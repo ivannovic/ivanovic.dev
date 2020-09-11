@@ -1,5 +1,5 @@
 /*===== GOOGLE FONTS =====*/
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap'); */
 /*===== VARIABLES CSS =====*/
 :root{
@@ -252,6 +252,7 @@ img{
 .about__text{
   text-align: justify;
   font-size: 1.2rem;
+  font-weight: lighter;
 }
 .about__subtitle{
   margin-bottom: var(--mb-2);
@@ -274,6 +275,8 @@ img{
 }
 .skills__text{
   margin-bottom: var(--mb-4);
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 200;
   text-align: justify;
 }
 .skills__data{
